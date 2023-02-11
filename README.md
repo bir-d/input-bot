@@ -3,7 +3,9 @@ Quick discord bot written with discord.py, made for Uncharity Vigil 2023
 
 ## Install
 Install requirements (check requirements file)
+
 Edit .env with your bot token and authentication role, invite the bot to your server
+
 Run main.py
 
 ## Usage
