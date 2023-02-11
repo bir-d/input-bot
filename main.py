@@ -67,7 +67,8 @@ async def credits(ctx, user: discord.Member):
 @commands.check(hascredit)
 async def sendinput(ctx, input: str):
     deductCredit(ctx)
-    keyboard.tap(input)
+    keyboard.press(input)
+    keyboard.release(input)
     await ctx.send(f"sent input <{input}>, you now have {db[str(ctx.author.id)]} credits")
 
 @sendinput.error
