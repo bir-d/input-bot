@@ -1,3 +1,4 @@
+![icon](input-bot-icon.png)
 # input-bot
 Quick discord bot written with discord.py, made for Uncharity Vigil 2023.
 
