@@ -1,5 +1,7 @@
 # input-bot
-Quick discord bot written with discord.py, made for Uncharity Vigil 2023
+Quick discord bot written with discord.py, made for Uncharity Vigil 2023.
+
+Uses [shelve](https://docs.python.org/3/library/shelve.html) for persistent storage and [pynput](https://pypi.org/project/pynput/) for pressing keys on the host :)
 
 ## Install
 Install requirements (check requirements file)
